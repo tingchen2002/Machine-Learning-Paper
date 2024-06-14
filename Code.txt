@@ -1,0 +1,6 @@
+The data is preprocessed in R in order to convert all the data into numerical data (Data.R). All the data is accessed from the National Health and Nutrition Examination Survey (https://www.cdc.gov/nchs/nhanes/about_nhanes.htm) and is publicly available. After all the data is retrieved and changed into the right format it is exported as a csv file (data.csv). This is imported into Python, where it can be used for the neural network models.
+
+-Original machine learning model.py
+Contains all the code from the original model described in the methodology and plots and performance metrics.
+-Machine learning model with extensions.py
+Contains all the code from the original model with extensions described in the methodology. Again it includes all the plots and performance metrics
